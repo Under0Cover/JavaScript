@@ -1,17 +1,31 @@
-// TIPOS DE FUNÇÕES
+// OPERADORES
 
-// REALIZA UMA TAREFA E NÃO DEVOLVE NADA
-function dizerNome(){
-    console.log('Oliver')
-}
+// OPERADORES ARITIMÉTICOS
+let salario = 100
 
-// REALIZA UMA TAREFA E DEVOLVE ALGO
-function multiplicarPorDois(valor){
-    return valor * 2
-}
+console.log(salario)
+console.log(salario + salario)
+console.log(salario - salario)
+console.log(salario * salario)
+console.log(salario / salario)
+console.log(salario ** salario)
 
-dizerNome()
-console.log(multiplicarPorDois(5))
+// INCREMENTO E DECREMENTO
+let idade = 18
+console.log(idade)
+console.log(idade++)
+console.log(idade)
+console.log(++idade)
+console.log(idade)
+console.log(idade--)
+console.log(idade)
+console.log(--idade)
+console.log(idade)
 
-let resultado = multiplicarPorDois(10)
-console.log(resultado)
+// OPERADORES DE ATRIBUIÇÃO
+
+// OPERADORES DE COMPARAÇÃO
+
+// OPERADORES LÓGICOS
+
+// OPERADORES BITWISE
