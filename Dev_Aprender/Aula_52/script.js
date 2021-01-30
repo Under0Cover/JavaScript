@@ -177,12 +177,12 @@ console.log(combinado)
 */
 
 const  vogais = [{id: 'vogais'}, 'a', 'e', 'i', 'o', 'u']
-const consoates = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't' , 'v', 'x', 'z']
+const consoantes = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't' , 'v', 'x', 'z']
 
 console.log(vogais)
-const alfabeto = vogais.concat(consoates)
+const alfabeto = vogais.concat(consoantes)
 vogais[0].id = 'alfabeto'
-// const alfabeto = vogais.concat(consoates)
+// const alfabeto = vogais.concat(consoantes)
 console.log(vogais)
 console.log(alfabeto)
 
